@@ -24,4 +24,12 @@ public class Movie {
     public Boolean getWatched(){
         return watched;
     }
+
+    public String getWatchedString() {
+        if(watched){
+            return "true";
+        } else {
+            return "false";
+        }
+    }
 }
