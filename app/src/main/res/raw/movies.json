@@ -1,0 +1,305 @@
+{
+"movies": [
+	{
+		"name" : "Shawshank Redemption",
+		"watched" : true
+	}, {
+		"name" : "The Dark Knight",
+		"watched" : true
+	}, {
+		"name" : "City of God",
+		"watched" : false
+	}, {
+		"name" : "Pulp Fiction",
+		"watched" : true
+	}, {
+		"name" : "Amelie",
+		"watched" : false
+	}, {
+		"name" : "12 Angry Men",
+		"watched" : false
+	}, {
+		"name" : "Blade Runner",
+		"watched" : true
+	}, {
+		"name" : "A Clockwork Orange",
+		"watched" : true
+	}, {
+		"name" : "The Deer Hunter",
+		"watched" : false
+	}, {
+		"name" : "Casablanca",
+		"watched" : false
+	}, {
+		"name" : "E.T.",
+		"watched" : false
+	}, {
+		"name" : "Up",
+		"watched" : true
+	}, {
+		"name" : "The Rocky Horror Picture Show",
+		"watched" : false
+	}, {
+		"name" : "The Big Lebowski",
+		"watched" : true
+	}, {
+		"name": "Office Space",
+		"watched" : true
+	}, {
+		"name" : "Fight Club",
+		"watched" : true
+	}, {
+		"name" : "Snatch",
+		"watched" : false
+	}, {
+		"name" : "Oldboy",
+		"watched" : false
+	}, {
+		"name" : "Leon: The Professional",
+		"watched" : false
+	}, {
+		"name" : "Scarface",
+		"watched" : false
+	}, {
+		"name" : "Raiders of the Lost Ark",
+		"watched" : true
+	}, {
+		"name" : "The Lord of the Rings",
+		"watched" : false
+	}, {
+		"name" : "Moonlight",
+		"watched" : false 
+	}, {
+		"name" : "The Matrix",
+		"watched" : true
+	}, {
+		"name" : "Apocalpyse Now",
+		"watched" : false
+	}, {
+		"name" : "The Grand Budapest Hotel",
+		"watched" : false
+	}, {
+		"name" : "Life of Brian",
+		"watched" : false
+	}, {
+		"name" : "In Bruges",
+		"watched" : false
+	}, {
+		"name" : "3 Idiots",
+		"watched" : false
+	}, {
+		"name" : "The Godfather",
+		"watched" : false
+	}, {
+		"name" : "The Notebook",
+		"watched" : false
+	}, {
+		"name" : "The Lion King",
+		"watched" : true
+	}, {
+		"name" : "Stand by Me",
+		"watched" : false
+	}, {
+		"name" : "Dirty Dancing",
+		"watched" : false
+	}, {
+		"name" : "Jurassic Park",
+		"watched" : false
+	}, {
+		"name" : "2001: A Space Odyssey",
+		"watched" : true
+	}, {
+		"name" : "The Goonies",
+		"watched" : true
+	}, {
+		"name" : "WALL-E",
+		"watched" : true
+	}, {
+		"name" : "Groundhog Day",
+		"watched" : true
+	}, {
+		"name" : "Star Wars Original Trilogy",
+		"watched" : false
+	}, {
+		"name" : "Schindler's List",
+		"watched" : false
+	}, {
+		"name" : "Breakfast at Tiffany's",
+		"watched" : false
+	}, {
+		"name" : "Shaun of the Dead",
+		"watched" : true
+	}, {
+		"name" : "Back to the Future",
+		"watched" : true
+	}, {
+		"name" : "Forest Gump",
+		"watched" : true
+	}, {
+		"name" : "Silence of the Lambs",
+		"watched" : true
+	}, {
+		"name" : "The Shining",
+		"watched" : true
+	}, {
+		"name" : "Alien",
+		"watched" : true
+	}, {
+		"name" : "Memento",
+		"watched" : true
+	}, {
+		"name" : "Se7en",
+		"watched" : true
+	}, {
+		"name" : "Halloween",
+		"watched" : false
+	}, {
+		"name" : "Jaws",
+		"watched" : true
+	}, {
+		"name" : "The Evil Dead",
+		"watched" : false
+	}, {
+		"name" : "Airplane",
+		"watched" : true
+	}, {
+		"name" : "Mean Girls",
+		"watched" : false
+	}, {
+		"name" : "Lawrence of Arabia",
+		"watched" : false
+	}, {
+		"name" : "Drive",
+		"watched" : false
+	}, {
+		"name" : "Casino Royale",
+		"watched" : true
+	}, {
+		"name" : "Ghostbusters",
+		"watched" : true
+	}, {
+		"name" : "Rosemary's Baby",
+		"watched" : false
+	}, {
+		"name" : "Mary and Max",
+		"watched" : false
+	}, {
+		"name" : "The Terminator",
+		"watched" : true
+	}, {
+		"name" : "The Green Mile",
+		"watched" : false
+	}, {
+		"name" : "Rocky",
+		"watched" : false
+	}, {
+		"name" : "This is Spinal Tap",
+		"watched" : false
+	}, {
+		"name" : "American Psycho",
+		"watched" : false
+	}, {
+		"name" : "Citizen Kane",
+		"watched" : false
+	}, {
+		"name" : "The Intouchables",
+		"watched" : false
+	}, {
+		"name" : "American History X",
+		"watched" : true
+	}, {
+		"name" : "Seven Samurai",
+		"watched" : false
+	}, {
+		"name" : "Gladiator",
+		"watched" : false
+	}, {
+		"name" : "The Good, the Bad and the Ugly",
+		"watched" : false
+	}, {
+		"name" : "Brokeback Mountain",
+		"watched" : false
+	}, {
+		"name" : "The Great Dictator",
+		"watched" : false
+	}, {
+		"name" : "Toy Story",
+		"watched" : true
+	}, {
+		"name" : "The Prestige",
+		"watched" : false
+	}, {
+		"name" : "Titanic",
+		"watched" : true
+	}, {
+		"name" : "Her",
+		"watched" : false
+	}, {
+		"name" : "Boyz N the Hood",
+		"watched" : false
+	}, {
+		"name" : "Four Weddings and a Funeral",
+		"watched" : false
+	}, {
+		"name" : "Little Miss Sunshine",
+		"watched" : true
+	}, {
+		"name" : "Trainspotting",
+		"watched" : true
+	}, {
+		"name" : "The Departed",
+		"watched" : false
+	}, {
+		"name" : "Saving Private Ryan",
+		"watched" : false
+	}, {
+		"name" : "No Country for Old Men",
+		"watched" : true
+	}, {
+		"name" : "The Pianist",
+		"watched" : false
+	}, {
+		"name" : "Dr Strangelove",
+		"watched" : false
+	}, {
+		"name" : "Lagaan",
+		"watched" : false
+	}, {
+		"name" : "Baahubali",
+		"watched" : false
+	}, {
+		"name" : "Psycho",
+		"watched" : false
+	}, {
+		"name" : "Vertigo",
+		"watched" : false
+	}, {
+		"name" : "The Truman Show",
+		"watched" : true
+	}, {
+		"name" : "Reservoir Dogs",
+		"watched" : true
+	}, {
+		"name" : "Amadeus",
+		"watched" : true
+	}, {
+		"name" : "Enter the Dragon",
+		"watched" : false
+	}, {
+		"name" : "The Wizard of Oz",
+		"watched" : true
+	}, {
+		"name" : "Gangs of New York",
+		"watched" : false
+	}, {
+		"name" : "The Usual Suspects",
+		"watched" : false
+	}, {
+		"name" : "Spirited Away",
+		"watched" : false
+	}, {
+		"name" : "Good Will Hunting",
+		"watched" : false
+	}
+]
+}

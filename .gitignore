@@ -80,3 +80,8 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+*.gradle
+*.properties
+gradlew
+gradle/wrapper/gradle-wrapper.jar
+gradlew.bat
