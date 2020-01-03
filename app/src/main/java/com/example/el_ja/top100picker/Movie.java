@@ -1,6 +1,6 @@
 package com.example.el_ja.top100picker;
 
-public class Movie {
+public class Movie implements java.io.Serializable {
     private String name;
     private Boolean watched;
 

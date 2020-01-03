@@ -85,3 +85,4 @@ lint/tmp/
 gradlew
 gradle/wrapper/gradle-wrapper.jar
 gradlew.bat
+.idea/misc.xml

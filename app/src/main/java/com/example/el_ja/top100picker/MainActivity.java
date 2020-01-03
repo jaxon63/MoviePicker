@@ -1,5 +1,7 @@
 package com.example.el_ja.top100picker;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -19,10 +21,11 @@ import java.io.FileInputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements java.io.Serializable {
 
     private ArrayList<Movie> movies;
     private String masterJson;
@@ -37,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         Button pickButton = findViewById(R.id.pickButton);
         final Switch watchedMovie = findViewById(R.id.watchedMovies);
         final Button setWatched = findViewById(R.id.setWatched);
+        Button listButton = findViewById(R.id.ListButton);
 
 
         final Random generator = new Random();
@@ -56,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onClick(View v){
                         movies.get(index).setWatched(true);
                         saveJson();
+                        Toast.makeText(getBaseContext(), "Movie added to watched list", Toast.LENGTH_SHORT).show();
 
                         }
                     });
@@ -63,6 +68,25 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        listButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Movie_List.class);
+                intent.putExtra("movies", movies);
+                startActivityForResult(intent, 1);
+            }
+        });
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data){
+        if(requestCode == 1){
+            if(resultCode == Activity.RESULT_OK){
+                movies = (ArrayList<Movie>)data.getSerializableExtra("movies");
+                saveJson();
+            }
+        }
     }
 
 
@@ -85,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
 
         masterJson = moviesJson.toString();
         writeInternal();
-        Toast.makeText(this, "Movie added to watched list", Toast.LENGTH_SHORT).show();
+
 
     }
 
